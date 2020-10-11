@@ -89,5 +89,5 @@ Now merge any changes that were made in the original repository’s master branc
 At this point, you are ready to make a pull request to the original repository.	At this point, you are ready to make a pull request to the original repository.
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 	
-# Hurray! You just got closer to completing your Hacktoberfest 		challenge :smiley:
-![PR](https://lh3.googleusercontent.com/proxy/Y1ZF0AU36GHLd5sjbayWuO0WGov9a4MksAVNZKbTTlsXfxu3scHfIQ1xAy2-HkvjmBeSd3FHcQQtghJmRSFjTVTjejEVcNM)
+# Hurray! You just got closer to completing your Hacktoberfest challenge :smiley:
+![PR Created](https://i0.wp.com/www.eventstodayz.com/wp-content/uploads/2017/08/congratulations-gif-image-2017.gif?resize=494%2C329)
