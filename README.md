@@ -22,7 +22,7 @@ We’ll use the `git clone`  command along with the URL that points to your fork
 
 This URL will be similar to the URL above, except now it will end with `.git.` In the cloud_haiku example above, the URL will look like this:
 
-https://github.com/your-username/Hacktoberfest.git
+`https://github.com/your-username/Hacktoberfest.git`
 
 You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page.
 
