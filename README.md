@@ -1,5 +1,5 @@
 # Hacktoberfest_2020
-  Hacktober fest is a celebration open to everyone in the global community. It is held from October 1st to October 31st worldwide. It is a great oppurtunity/platform for people from beginner stage to professional developer to learn more about open source and contribute effectively for the same.IT is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
+  Hacktober fest is a celebration open to everyone in the global community. It is held from October 1st to October 31st worldwide. It is a great opportunity/platform for people from beginner stage to professional developer to learn more about open source and contribute effectively for the same. IT is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
   
   ### 1. Register yourself for Hacktoberfest
 ##### Link to register: https://hacktoberfest.digitalocean.com/login
@@ -18,7 +18,7 @@ When you’re on the main page of a repository, you’ll see a button to "Star" 
 
 
 ### 3. Clone the Repository
-We’ll use the `git clone`  command along with the URL that points to your fork of the repository onterminal window.
+We’ll use the `git clone`  command along with the URL that points to your fork of the repository on terminal window.
 
 This URL will be similar to the URL above, except now it will end with `.git.` In the cloud_haiku example above, the URL will look like this:
 
@@ -74,7 +74,7 @@ Next up, you’ll have to specify a new remote upstream repository for us to syn
 ### 7. Sync the Fork
 Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
 
-To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
+To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the short name “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
 
 ##### ` git fetch upstream `
 
