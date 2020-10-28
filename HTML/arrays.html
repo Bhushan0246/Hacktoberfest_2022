@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="../Javascript/arrays.js"></script>
+       
+    </head>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+<h3> Click on the button once to try various array functions in JavaScript.</h3>
+<h2 style="background-color:darksalmon">pop()</h2>
+
+<p>The pop() method removes the last element from an array.</p>
+<p>The return value of the pop() method is the removed item.</p>
+
+<p id="demo1" ></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<input type="button" value="Pop Item" onclick="RemoveElement();"/>
+<u>------------------------------------------------------------------------------------------</u>
+<h2 style="background-color:darkseagreen">push()</h2>
+<p>The push() method adds an element to the end of an array.</p>
+<p>The return value of the push() method is the new length of array after adding the new item.</p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<input type="button" value="Push Item" onclick="AddElement();" />
+<u>------------------------------------------------------------------------------------------</u>
+<h2 style="background-color:lightpink">shift()</h2>
+
+<p>The shift() method removes the first element of an array (and "shifts" all other elements to the left):</p>
+
+<p id="demo6"></p>
+<p id="demo7"></p>
+<input type="button" value="Shift Item" onclick="ShiftElement();"/>
+
+<u>------------------------------------------------------------------------------------------</u>
+<h2 style="background-color:lightslategray">unshift()</h2>
+
+<p>The unshift() method adds the element to the start of an array (and "shifts" all other elements to the right):</p>
+
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+
+<input type="button" value="Unshift Item" onclick="UnshiftElement();"/>
+
+<u>------------------------------------------------------------------------------------------</u>
+<h2 style="background-color:mediumspringgreen">splice()</h2>
+
+<p>The splice() method adds/removes elements to/from an array:</p>
+
+<p id="demo11"></p>
+<p id="demo12"></p>
+<p id="demo13"></p>
+
+<input type="button" value="Add Item" onclick="AddSplice();"/>
+
+<input type="button" value="Remove Item" onclick="RemoveSplice();"/>
+
+<u>------------------------------------------------------------------------------------------</u>
+<h2 style="background-color: palegoldenrod;">concat()</h2>
+
+<p>The concat() method is used to merge (concatenate) arrays:</p>
+
+<p id="demo14"></p>
+<input type="button" value="Merge Array" onclick="ConcatArrays();"/>
+<script>
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo11").innerHTML = "Original Array:<br>" + fruits;
+</script>
+</body>
+</html>
