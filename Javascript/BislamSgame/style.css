@@ -1,0 +1,18 @@
+
+#player{
+    position: absolute;
+    background: url("./img/player.png");
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+}
+
+#map{
+    position: relative;
+    border: 1px solid black;
+    height: 500px;
+    width: 1000px;
+    background-image: url("./img/background.png");
+
+}
