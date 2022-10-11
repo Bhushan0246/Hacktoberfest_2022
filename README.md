@@ -1,19 +1,20 @@
-# Hacktoberfest_2020
+# Hacktoberfest_2022
 
-  Hacktober fest is a celebration open to everyone in the global community. It is held from October 1st to October 31st worldwide. It is a great opportunity/platform for people from beginner stage to professional developer to learn more about open source and contribute effectively for the same. It is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
+  Hacktober fest is a celebration open to everyone in the global community. It is held from October 1st to October 31st worldwide. It is a great opportunity/platform for people from beginner stage to professional developer to learn more about open source and contribute effectively for the same. It is a month-long global celebration of open source software run by DigitalOcean in partnership with Intel, AppWrite, and DeepSource, with a strong focus on encouraging contributions to open source projects. Hacktoberfest is open to everyone beginer as well as experinced.
+  
   
   ### 1. Register yourself for Hacktoberfest
-##### Link to register: https://hacktoberfest.digitalocean.com/login
-Click on "Start Hacking" and sign in with your GitHub account.
+##### Link to register: https://hacktoberfest.com/auth
+Authorise with the respective account type and sign in with your GitHub account.
 
-![Screenshot-HFST](https://hacktoberfestswaglist.com/img/Hacktoberfest_20.jpg)
+![Screenshot-HFST](https://github.blog/wp-content/uploads/2022/10/hacktoberfestbanner.jpeg?fit=1200%2C630)
 
 	
 ### 2. Star and Fork this Repository
 ###### You can star and fork this repository on GitHub by navigating at the top of this repository.
 GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, acmbvp is the owner of the Hacktoberfest repository, so the GitHub URL for this project is:
 
-https://github.com/Bhushan0246/Hacktoberfest
+https://github.com/Bhushan0246/Hacktoberfest_2022
 
 When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
 
@@ -23,20 +24,20 @@ We’ll use the `git clone`  command along with the URL that points to your fork
 
 This URL will be similar to the URL above, except now it will end with `.git.` In the cloud_haiku example above, the URL will look like this:
 
-`https://github.com/your-username/Hacktoberfest.git`
+`https://github.com/your-username/Hacktoberfest_2022.git`
 
 You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page.
 
 	
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 
-`git clone https://github.com/your-username/Hacktoberfest.git`
+`git clone https://github.com/your-username/Hacktoberfest_2022.git`
 
 
 ### 4. Create a New Branch
-To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to switch into that directory.
+To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest_2022) to switch into that directory.
 	
-#####  `cd Hacktoberfest`
+#####  `cd Hacktoberfest_2022`
 Now, we’ll create our new branch with the git branch command. Make sure you name it descriptively so that others working on the project understand what you are working on.
 
 ##### `git branch new-branch-name`
@@ -69,7 +70,7 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 ### 6. Configure a Remote for the Fork	
 Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/Bhushan0246/Hacktoberfest`
+##### ` git remote add upstream https://github.com/Bhushan0246/Hacktoberfest_2022`
 
 
 ### 7. Sync the Fork
